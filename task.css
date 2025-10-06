@@ -1,0 +1,113 @@
+:root {
+  --primary: #a855f7;
+  --bg: #f8f6ff;
+  --dark: #333;
+  --light: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--dark);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar {
+  background: var(--light);
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar nav a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: var(dark);
+}
+
+.logo {
+  color: var(primary);
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.highlight {
+  color: var(--primary);
+}
+
+.btn,
+.btn-outline {
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+}
+
+.btn-outline {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  background: transparent;
+}
+
+.btn.small {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.services,
+.features,
+.pricing,
+.faq,
+.testimonials,
+.subscribe {
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: var(--light);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ddd;
+  width: 300px;
+}
+
+.feature-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
